@@ -63,7 +63,7 @@ b. nilai_terendah diambil dari nilai paling kecil dalam array nilai_mahasiswa me
 5. Saat grafik dibuat:
 a. Array kategori digunakan sebagai label pada sumbu X (nama batang grafik).
 b. Array data digunakan sebagai tinggi batang grafik yang menunjukkan besar nilainya.
-6. Jadi, array pada program ini berfungsi untuk menyimpan kategori dan nilai yang akan ditampilkan dalam grafik nilai tertinggi dan terendah mahasiswa. 📊
+6. Jadi, array pada program ini berfungsi untuk menyimpan kategori dan nilai yang akan ditampilkan dalam grafik nilai tertinggi dan terendah mahasiswa. 
 
 # 2. Analisis kompleksitas tiap operasi
 1. Input 10 nilai mahasiswa → O(10) ≈ O(1)
