@@ -41,7 +41,7 @@ Total nilai dibagi jumlah data untuk mendapatkan rata-rata.
 2. Program pertama membuat dua variabel yaitu lulus dan tidak_lulus yang digunakan untuk menghitung jumlah mahasiswa yang lulus dan tidak lulus.
 3. Kemudian program melakukan perulangan pada array nilai_mahasiswa. Artinya program akan mengambil setiap nilai yang ada di dalam array tersebut satu per satu.
 4. Jika nilai mahasiswa lebih dari atau sama dengan 60, maka mahasiswa dianggap lulus, sehingga jumlah lulus akan bertambah satu.
-5.vJika nilai mahasiswa kurang dari 60, maka mahasiswa dianggap tidak lulus, sehingga jumlah tidak_lulus akan bertambah satu.
+5. Jika nilai mahasiswa kurang dari 60, maka mahasiswa dianggap tidak lulus, sehingga jumlah tidak_lulus akan bertambah satu.
 6. Setelah semua nilai di dalam array diperiksa, program akan menampilkan jumlah mahasiswa yang lulus dan jumlah mahasiswa yang tidak lulus berdasarkan data yang ada di dalam array nilai_mahasiswa.
 <img width="720" height="817" alt="image" src="https://github.com/user-attachments/assets/3b33044f-9fdc-4a94-9aec-04d746c10f88" />
 
@@ -90,7 +90,7 @@ Apa yang saya pelajari dari kode ini?
 
 Pemahaman struktur data list (array) sangat penting untuk mengelola kumpulan data seperti nilai mahasiswa. List membuat data terorganisir dan mudah diproses.
 
-Operasi dasar pada list seperti penambahan data (append), pencarian nilai maksimum/minimum (max, min), dan penghitungan total (sum) memperlihatkan bagaimana Python memudahkan manipulasi data.
+Operasi dasar pada list seperti penambahan data (append), pencarian nilai terendah/tertinggi (max, min), dan penghitungan total (sum) memperlihatkan bagaimana Python memudahkan manipulasi data.
 
 Penggunaan loop (for) memungkinkan kita mengakses dan memproses setiap elemen data secara efisien, misalnya untuk menghitung berapa mahasiswa yang lulus.
 
