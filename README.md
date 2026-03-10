@@ -3,7 +3,6 @@
 
 1. list = [] di Python berarti membuat sebuah list kosong.
 List di Python sering dianggap seperti array di bahasa pemrograman lain.
-Penjelasan
 2. list → nama variabel yang digunakan untuk menyimpan data.
 [] → tanda kurung siku yang menandakan list/array.
 3. Karena tidak ada isi di dalamnya, maka list tersebut kosong.
