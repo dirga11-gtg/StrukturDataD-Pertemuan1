@@ -10,9 +10,10 @@ Penjelasan
 
 <img width="626" height="413" alt="image" src="https://github.com/user-attachments/assets/3b9b3aa4-9bd7-46e5-a842-7fa497feea8e" />
 
-1.Program meminta nilai mahasiswa sebanyak 10 kali.
-2.Setiap nilai yang dimasukkan akan disimpan ke dalam array nilai_mahasiswa.
-3.Fungsi append() digunakan untuk menambahkan nilai ke dalam array.
+1. Program meminta nilai mahasiswa sebanyak 10 kali.
+2. Setiap nilai yang dimasukkan akan disimpan ke dalam array nilai_mahasiswa.
+3. Fungsi append() digunakan untuk menambahkan nilai ke dalam array.
+
 <img width="515" height="266" alt="image" src="https://github.com/user-attachments/assets/81529a72-931b-4c9e-9d68-19e2976521e7" />
 
 1. print("List:", nilai_mahasiswa)
@@ -27,13 +28,10 @@ min() digunakan untuk mencari nilai paling kecil yang ada di dalam array nilai_m
 <img width="684" height="156" alt="image" src="https://github.com/user-attachments/assets/7bcad36a-18a1-46d6-9a70-6390266b0cf2" />
 
 1. print("Rata-rata:", sum(nilai_mahasiswa) / len(nilai_mahasiswa))
-
 2. sum(nilai_mahasiswa)
 Digunakan untuk menjumlahkan semua nilai yang ada di dalam array nilai_mahasiswa.
-
-3.len(nilai_mahasiswa)
+3. len(nilai_mahasiswa)
 Digunakan untuk menghitung jumlah data yang ada di dalam array nilai_mahasiswa.
-
 4. sum(nilai_mahasiswa) / len(nilai_mahasiswa)
 Total nilai dibagi jumlah data untuk mendapatkan rata-rata.
 
@@ -69,9 +67,26 @@ b. Array data digunakan sebagai tinggi batang grafik yang menunjukkan besar nila
 6. Jadi, array pada program ini berfungsi untuk menyimpan kategori dan nilai yang akan ditampilkan dalam grafik nilai tertinggi dan terendah mahasiswa. 📊
 
 # 2. Analisis kompleksitas tiap operasi
+1. Input 10 nilai mahasiswa → O(10) ≈ O(1)
+Program meminta input nilai sebanyak 10 kali. Karena jumlahnya tetap (tidak berubah), maka dianggap O(1) atau konstan.
+
+2. Mencari nilai tertinggi dan terendah → O(n)
+Untuk mencari nilai tertinggi dan terendah, program harus memeriksa semua nilai dalam array nilai_mahasiswa satu per satu.
+Jika jumlah data n, maka prosesnya n kali, sehingga kompleksitasnya O(n).
+
+3. Menghitung rata-rata → O(n)
+Untuk menghitung rata-rata, program harus menjumlahkan semua nilai dalam array terlebih dahulu, lalu dibagi jumlah data.
+Karena semua data diperiksa, kompleksitasnya O(n).
+
+4. Menghitung jumlah mahasiswa lulus → O(n)
+Program melakukan perulangan pada seluruh isi array nilai_mahasiswa untuk mengecek apakah nilai ≥ 60 atau tidak.
+Karena setiap data diperiksa satu per satu, kompleksitasnya juga O(n).
+
+5. Membuat grafik → O(1)
+Grafik hanya menggunakan 2 data atau data yang sangat sedikit, sehingga waktu prosesnya konstan dan dianggap O(1).
 
 # 3. REFLEKSI PEMBELAJARAN
-Apa yang dipelajari dari kode ini?
+Apa yang saya pelajari dari kode ini?
 
 Pemahaman struktur data list (array) sangat penting untuk mengelola kumpulan data seperti nilai mahasiswa. List membuat data terorganisir dan mudah diproses.
 
