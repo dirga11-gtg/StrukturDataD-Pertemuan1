@@ -1,14 +1,11 @@
 # 1. PENJELASAN ARRAY DAN SCRENSHOOT HASIL EKSEKUSI
-<img width="314" height="94" alt="image" src="https://github.com/user-attachments/assets/263589d7-614e-411d-a3fe-fbc5d14ccd6e" />
+<img width="195" height="66" alt="image" src="https://github.com/user-attachments/assets/334f57ca-ad53-4bbf-a007-367c6bff9db3" />
 
-
-1. nilai_mahasiswa → nama array/list
-2. [] → array kosong (belum ada data)
-3. list = [] di Python berarti membuat sebuah list kosong.
+1. list = [] di Python berarti membuat sebuah list kosong.
 List di Python sering dianggap seperti array di bahasa pemrograman lain.
-4. list → nama variabel yang digunakan untuk menyimpan data.
+2. list → nama variabel yang digunakan untuk menyimpan data.
 [] → tanda kurung siku yang menandakan list/array.
-5. Karena tidak ada isi di dalamnya, maka list tersebut kosong.
+3. Karena tidak ada isi di dalamnya, maka list tersebut kosong.
 
 <img width="626" height="413" alt="image" src="https://github.com/user-attachments/assets/3b9b3aa4-9bd7-46e5-a842-7fa497feea8e" />
 
